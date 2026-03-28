@@ -2,7 +2,7 @@ package dev.kpreis.retrykit.examples;
 
 import dev.kpreis.retrykit.core.Retryable;
 
-public class PaymentService {
+public class PaymentService implements IPaymentService {
 
     private int counter = 0;
 

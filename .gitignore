@@ -1,7 +1,7 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -23,11 +23,29 @@
 hs_err_pid*
 replay_pid*
 
-shelf/
-workspace.xml
+# Maven target directory
 target/
+
+# IntelliJ IDEA
 .idea/
 *.iml
-*.class
-*.logtarget/
-.idea/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# MacOS
+.DS_Store
+
+# Others
+shelf/
+workspace.xml
